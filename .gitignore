@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# Django static and media
+staticfiles/
+media/
+static/
+
+# SQLite database
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.*
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+
+# macOS / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage and testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# MyPy
+.mypy_cache/
+
+# PyInstaller
+*.manifest
+*.spec
