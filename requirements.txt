@@ -6,3 +6,4 @@ phonenumbers
 django-phonenumber-field
 mysqlclient
 django-cors-headers
+Pillow
