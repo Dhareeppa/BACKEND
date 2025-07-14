@@ -4,3 +4,5 @@ django-environ
 djangorestframework-simplejwt
 phonenumbers
 django-phonenumber-field
+mysqlclient
+django-cors-headers
