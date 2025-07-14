@@ -100,7 +100,7 @@ class RegisterSerializers(serializers.Serializer):
 class MoneyTransferRequestSerializer(serializers.Serializer):
     recipient_name = serializers.CharField(max_length=20)
     receiver_account_number = serializers.CharField(max_length=20)
-    amount = serializers.DecimalField(max_digits=12, decimal_places=2, min_value=("0.01"))
+    amount = serializers.DecimalField(max_digits=12, decimal_places=2, min_value=Decimal("0.01"))
     description = serializers.CharField(max_length=500, required=False, allow_blank=True)
     
     def validate_amount(self, value):
